@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a875453f-6b51-4b62-b7c2-a75f7c1ea225" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2vJaAMToUkrZPQflWVHibuM2CsI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/WorkWORK/PROJECTS/nastia&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;B:\\WorkWORK\\PROJECTS\\Leha\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\WorkWORK\PROJECTS\Leha" />
+      <recent name="B:\WorkWORK\PROJECTS\Leha\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a875453f-6b51-4b62-b7c2-a75f7c1ea225" name="Changes" comment="" />
+      <created>1743865485640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743865485640</updated>
+      <workItem from="1743865486703" duration="59000" />
+      <workItem from="1743865560317" duration="11595000" />
+      <workItem from="1743879112560" duration="91000" />
+      <workItem from="1743928984728" duration="3890000" />
+      <workItem from="1744004530620" duration="721000" />
+      <workItem from="1744475245170" duration="10983000" />
+      <workItem from="1744523827258" duration="234000" />
+      <workItem from="1744535509281" duration="5948000" />
+      <workItem from="1744548104554" duration="1448000" />
+      <workItem from="1744567026915" duration="2771000" />
+      <workItem from="1744570046378" duration="480000" />
+      <workItem from="1744609388045" duration="34000" />
+      <workItem from="1744914371200" duration="3408000" />
+      <workItem from="1745056240803" duration="5154000" />
+      <workItem from="1745065259232" duration="2115000" />
+      <workItem from="1747245214722" duration="23000" />
+    </task>
+    <task id="LOCAL-00001" summary="FIrst add">
+      <option name="closed" value="true" />
+      <created>1743878963066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743878963067</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FIrst add">
+      <option name="closed" value="true" />
+      <created>1743878967661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743878967661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил стилей немного">
+      <option name="closed" value="true" />
+      <created>1743934827290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743934827290</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Исправления">
+      <option name="closed" value="true" />
+      <created>1744549611011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744549611011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Замена реальными данными">
+      <option name="closed" value="true" />
+      <created>1744569712817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744569712817</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Исправил дату">
+      <option name="closed" value="true" />
+      <created>1744570479025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744570479025</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавил цветовую палитру">
+      <option name="closed" value="true" />
+      <created>1744916283299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744916283299</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавил цветовую палитру">
+      <option name="closed" value="true" />
+      <created>1745057228213</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745057228213</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавил цветовую палитру">
+      <option name="closed" value="true" />
+      <created>1745064099796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745064099796</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIrst add" />
+    <MESSAGE value="Добавил стилей немного" />
+    <MESSAGE value="Исправления" />
+    <MESSAGE value="Замена реальными данными" />
+    <MESSAGE value="Исправил дату" />
+    <MESSAGE value="Добавил цветовую палитру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил цветовую палитру" />
+  </component>
+</project>
