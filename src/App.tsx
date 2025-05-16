@@ -15,26 +15,31 @@ function WeddingInvitation() {
   // Тайминг мероприятия
   const schedule = [
     {
-      time: "15:30",
-      title: "Регистрация",
-      description: "Усадьба Ольшанное, д. Духовец",
+      time: "16:00",
+      title: "Cбор гостей",
+      description: "Какое-то место вписать можно?????",
+      photo: "location.svg"
+    },
+    {
+      time: "16:20",
+      title: "Выездная регистрация",
+      description: "Какое-то место вписать можно?????",
       photo: "two_rings.svg"
     },
     {
       time: "17:00",
       title: "Банкет",
-      description: "Усадьба Ольшанное, д. Духовец",
+      description: "Ресторан INTROVERT",
       photo: "two_glass.svg"
     },
   ];
 
   // Галерея локации
   const locationPhotos = [
-    "place5.png",
+    "place1.jpg",
     "place2.png",
     "place3.png",
-    "place4.png",
-    "place1.png"
+    "place4.png"
   ];
 
   // Цвета дресс-кода
@@ -66,7 +71,7 @@ function WeddingInvitation() {
   // Обратный отсчет
   const updateCountdown = () => {
     const now = new Date();
-    const weddingDate = new Date(2025, 7, 22, 15, 30, 0);
+    const weddingDate = new Date(2025, 7, 1, 16, 0, 0);
     const diff = weddingDate - now;
 
     if (diff <= 0) {
@@ -149,8 +154,8 @@ function WeddingInvitation() {
               <div class="block1-left animate-child">
                 <p class="child-question">Интересно, кто будет моим мужем, когда я выросту?</p>
                 <div class="photo-card">
-                  <img src="girl.jpg" />
-                  <p>Лиза, 4 года</p>
+                  <img src="girl.jpg" style={{width:"95%"}}/>
+                  <p>Настя, 5 лет</p>
                 </div>
               </div>
               <div class="block1-right animate-child">
@@ -159,7 +164,7 @@ function WeddingInvitation() {
             </div>
 
             <div class="block1-middle animate-child">
-              <h1>Л+Л=</h1>
+              <h1>Н+С=</h1>
               <img src="heart.svg" alt="Сердце"/>
             </div>
 
@@ -167,8 +172,8 @@ function WeddingInvitation() {
               <div class="smile-emoji animate-child"><img src={'smile.svg'}/></div>
               <div class="block1-right-content animate-child">
                 <div class="photo-card">
-                  <img src="boy.jpeg"/>
-                  <p>Леха, 4 года</p>
+                  <img src="boy.jpg" style={{width:"90%"}}/>
+                  <p>Саша, 6 лет</p>
                 </div>
                 <p class="answer">Им буду я!</p>
               </div>
@@ -187,12 +192,12 @@ function WeddingInvitation() {
             </p>
 
             <div class="date-box animate-child">
-              <div class="date-day">22</div>
+              <div class="date-day">1</div>
               <div class="date-month">августа</div>
-              <div class="date-day">15:30</div>
+              <div class="date-day">16:00</div>
             </div>
 
-            <p class="signature animate-child">С любовью,<br />Елизавета и Алексей</p>
+            <p class="signature animate-child">С любовью,<br />Александр и Анастасия</p>
 
             <img src="girl_boy.svg" alt="Мы вместе" class="couple-photo animate-child" />
 
@@ -274,9 +279,8 @@ function WeddingInvitation() {
 
             <h1 class="animate-child">Локация</h1>
             <p class="location-description animate-child">
-              Наше торжество пройдет в стильной усадьбе "Ольшаное" по адресу:<br />
-              Курская область, Октябрьский район, Черницынский сельсовет<br />
-              ул. Прибрежная, д. 1
+              Наше торжество пройдет в стильном ресторане "Интроверт" по адресу:<br />
+              г. Курск, ул. Магистральная, д. 2
             </p>
 
             <div class="location-gallery-container animate-child">
@@ -295,8 +299,16 @@ function WeddingInvitation() {
 
             <h1 class="map-title animate-child">Как добраться</h1>
             <div class={"map_block"}>
-              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A291dff061acdc1da453cd0ad9e6d0154da94615759b9a0a75650d198fcf1f851&amp;source=constructor" width="676" height="591" frameborder="0"></iframe>
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A07a9d24f0bb412f7f34302d67148e32e1e632f96a8db1b71cf1f74cee80bbf49&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
             </div>
+
+
+
+
+            <h1 class="animate-child">Локация</h1>
+            <p class="location-description animate-child">
+              Мы просим вас не дарить нам цветы, после торжества мы сразу уезжаем в долгожданное путешествие и не успеем насладиться этой красотой! Но, по желанию, выразить вашу любовь и радость можно в виде бутылки вашего любимого алкоголя , которая, мы обещаем, не завянет.
+            </p>
           </div>
         </div>
 
