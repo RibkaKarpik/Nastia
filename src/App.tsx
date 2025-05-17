@@ -17,13 +17,13 @@ function WeddingInvitation() {
     {
       time: "16:00",
       title: "Cбор гостей",
-      description: "Какое-то место вписать можно?????",
+      description: "Ресторан INTROVERT",
       photo: "location.svg"
     },
     {
       time: "16:20",
       title: "Выездная регистрация",
-      description: "Какое-то место вписать можно?????",
+      description: "Ресторан INTROVERT",
       photo: "two_rings.svg"
     },
     {
@@ -43,15 +43,43 @@ function WeddingInvitation() {
   ];
 
   // Цвета дресс-кода
-  const dressCodeColors = [
-    { code: "#f1c4c1", name: "Нежный розовый" },
-    { code: "#eda9a8", name: "Розовый" },
-    { code: "#765c4d", name: "Коричневый" },
-    { code: "#ccaf85", name: "Бежевый" },
-    { code: "#4c6444", name: "Зеленый" },
-    { code: "#cbba9e", name: "Серо-бежевый" },
-    { code: "#8b6340", name: "Темно-бежевый" },
-    { code: "#4e2e19", name: "Шоколадный" }
+  const dressCodeMaterials = [
+    {
+      image: "color1.jpg",
+      name: "Светло-серый",
+      hex: "#dfe1df",
+      rgb: "223,225,223"
+    },
+    {
+      image: "color2.jpg",
+      name: "Серебристо-серый",
+      hex: "#c7c7c8",
+      rgb: "199,199,200"
+    },
+    {
+      image: "color3.jpg",
+      name: "Дымчато-серый",
+      hex: "#adb1b2",
+      rgb: "173,177,178"
+    },
+    {
+      image: "color4.jpg",
+      name: "Тёмно-серый",
+      hex: "#777676",
+      rgb: "119,118,118"
+    },
+    {
+      image: "color5.jpg",
+      name: "Глубокий графитовый",
+      hex: "#343434",
+      rgb: "52,52,52"
+    },
+    {
+      image: "color6.jpg",
+      name: "Истинно чёрный",
+      hex: "#040606",
+      rgb: "4, 6, 6"
+    }
   ];
 
   const openPhoto = (photo) => {
@@ -262,14 +290,21 @@ function WeddingInvitation() {
                 Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы
               </p>
 
-              <div class="color-palette">
-                <For each={dressCodeColors}>
-                  {(color, index) => (
-                      <div class="color-item animate-child"
-                           style={`background-color: ${color.code}; transition-delay: ${index() * 0.1}s`}>
-                        <div class="color-info">
-                          <span class="color-code">{color.name}</span>
-                          <span class="color-name">{color.code}</span>
+              <div class="materials-palette">
+                <For each={dressCodeMaterials}>
+                  {(material, index) => (
+                      <div class="material-item animate-child"
+                           style={`transition-delay: ${index() * 0.1}s`}>
+                        <div class="material-image-container">
+                          <img src={material.image} alt={material.name} class="material-image" />
+                          <div class="material-overlay" style={`background-color: ${material.hex}`}></div>
+                        </div>
+                        <div class="material-info">
+                          <span class="material-name">{material.name}</span>
+                          <div class="material-color-codes">
+                            <span class="color-code">HEX: {material.hex}</span>
+                            <span class="color-code">RGB: {material.rgb}</span>
+                          </div>
                         </div>
                       </div>
                   )}
@@ -305,9 +340,41 @@ function WeddingInvitation() {
 
 
 
-            <h1 class="animate-child">Локация</h1>
-            <p class="location-description animate-child">
-              Мы просим вас не дарить нам цветы, после торжества мы сразу уезжаем в долгожданное путешествие и не успеем насладиться этой красотой! Но, по желанию, выразить вашу любовь и радость можно в виде бутылки вашего любимого алкоголя , которая, мы обещаем, не завянет.
+            <h1 class="animate-child" style="
+  font-family: 'Playfair Display', serif;
+  font-size: 2.1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-style: italic;
+">P.S</h1>
+
+            <p style="
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6c757d;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  animation: fadeIn 2s ease-in-out;
+  font-style: italic; /* Добавлено курсивное начертание */
+">
+              Мы просим вас не дарить нам цветы, после торжества мы сразу уезжаем в долгожданное путешествие и не успеем насладиться этой красотой! </p>
+            <p style="
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6c757d;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  animation: fadeIn 2s ease-in-out;
+  font-style: italic; /* Добавлено курсивное начертание */
+">
+              Но, по желанию, выразить вашу любовь и радость можно в виде бутылки вашего любимого алкоголя, которая, мы обещаем, не завянет.
             </p>
           </div>
         </div>
